@@ -1,8 +1,15 @@
-public class Cat extends Animal {
+class Cat extends Animal{
 
+    @Override
     public void sound(){
         System.out.println("Мяу");
-        Cat cat = new Cat();
+    }
+
+    public static void main(String[] args) {
+
+        Animal cat = new Cat();
         cat.sound();
+        cat.getEats();
+
     }
 }

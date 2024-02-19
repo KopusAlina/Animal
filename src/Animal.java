@@ -1,13 +1,10 @@
 public class Animal {
 
-    public static void main(String[] args) {
-
-    }
-
     private boolean vegetarian;
     private String eats;
 
-    public Animal(){}
+    public Animal(){
+    }
 
     public Animal(boolean veg, String food){
         this.vegetarian = veg;
@@ -15,6 +12,7 @@ public class Animal {
     }
 
     public void sound(){
+        System.out.println("Голос");
     }
 
     public boolean isVegetarian() {
